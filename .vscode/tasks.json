@@ -7,8 +7,11 @@
             "command": "uv",
             "args": [
                 "run",
-                "python",
-                "${workspaceFolder}/src/main.py"
+                "flet",
+                "run",
+                "-d",
+                "-r",
+                "${workspaceFolder}/src/main.py",
             ],
             "group": {
                 "kind": "build",
